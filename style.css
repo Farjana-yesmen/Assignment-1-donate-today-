@@ -1,0 +1,105 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    font-size: 65px; 
+   margin-bottom: 5px;
+}
+h2{
+    font-size: 45px;
+}
+h4{
+    font-size: 24px;
+    color: #121212;
+}
+h5{
+    font-size: 30px;
+}
+h6{
+    font-size: 18px;
+    color: #B3B3B3;
+}
+
+p{
+    color: #707070;
+    font-size: 18px; 
+ }
+.top-banner{
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 100px; 
+    background-size: cover;  
+ }
+ #top-b-p{
+    color:white;
+ }
+ .text-align{
+ text-align: center;
+ color: white;
+}
+.link-button{
+    text-decoration: none;
+    background-color:#FF5959;
+    color: white;
+    font-size:20px;
+    padding: 10px 10px;
+    border-radius: 5px;  
+}
+.donate-today{
+    text-align: center; 
+}
+
+hr{
+    color: #DADADA;
+}
+.contant-box{
+    display: flex;
+    width: 135px;
+    height: 123px;
+    border-radius: 5px;
+    color: #7e1f1f;;
+}
+.donate-plan{
+    text-align: center; 
+}
+.container-1{
+    display: flex;
+    margin-left: 300px;
+
+}
+.box{
+    text-align: center;
+    margin: 5px;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    
+    background-color: #FAFAFA; 
+    
+}
+.container-2{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    margin-bottom: 100px;   
+
+}
+.box-one{
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 10px;
+    border: 10px solid white;
+}
+.box-two{
+    background-color: rgba(255, 89, 89, 0.1);
+    border-radius: 10px;
+    border: 10px solid white;
+}
+.box-three{
+    background-color: rgb(247, 246, 205);
+    border-radius: 10px;
+    border: 10px solid white; 
+}
+
+
