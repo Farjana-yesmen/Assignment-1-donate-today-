@@ -1,6 +1,7 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+
 h1{
     font-size: 65px; 
    margin-bottom: 5px;
@@ -12,9 +13,7 @@ h4{
     font-size: 24px;
     color: #121212;
 }
-h5{
-    font-size: 30px;
-}
+
 h6{
     font-size: 18px;
     color: #B3B3B3;
@@ -25,11 +24,12 @@ p{
     font-size: 18px; 
  }
 .top-banner{
-    background-image: url(images/donation13.jpg);
+    background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-position:center;
     padding: 100px; 
     background-size: cover;  
+    color: rgba(18, 18, 18, 0);
  }
  #top-b-p{
     color:white;
@@ -65,18 +65,19 @@ hr{
 }
 .container-1{
     display: flex;
-    margin-left: 300px;
-
+    margin-left: 350px;
+    font-size: 30px;
 }
 .box{
-    text-align: center;
-    margin: 5px;
-    position: relative;
-    width: 120px;
-    height: 120px;
-    
-    background-color: #FAFAFA; 
-    
+    background-color: #FFEEEE;
+    padding: 5px 20px;
+    border: 5px solid transparent;  
+    margin-right: 5px;
+}
+.box:hover{
+    outline: 0px solid transparent;
+    border: 5px solid #FF5959;
+    color: #FF5959;
 }
 .container-2{
     display: flex;
@@ -84,22 +85,96 @@ hr{
     margin-right: 5%;
     text-align: center;
     margin-bottom: 100px;   
-
 }
 .box-one{
     background-color: rgba(79, 157, 166, 0.1);
     border-radius: 10px;
     border: 10px solid white;
+    padding: 10px 10px 10px;
 }
 .box-two{
     background-color: rgba(255, 89, 89, 0.1);
     border-radius: 10px;
     border: 10px solid white;
+    padding: 10px 10px 10px;
 }
 .box-three{
     background-color: rgb(247, 246, 205);
     border-radius: 10px;
     border: 10px solid white; 
+    padding: 10px 10px 10px;
 }
+
+.donation-container{
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 100px;
+    width: 80%;
+}
+.donation-text{
+    text-align: justify;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+#img2{
+   width: 440px;
+   height:320px ; 
+}
+.update-area{
+    text-align: center;
+    
+}
+#update-a-text1 h2{
+    padding-bottom: 0;
+}
+.subscribe-area{
+    text-align: center;
+    margin-left: 350px;
+    
+}
+.sub-box{
+   width: 599px;
+   height: 100px;
+   background-color: #fff4d6;
+   padding-top: 70px;
+}
+#email-box{
+    background-color: #D9D9D9;
+    border-color:#D9D9D9;
+    color: #AA9F9F;
+    width: 275px;
+    height: 48px;
+   
+}
+#button-box{
+    width: 175px;
+    height: 48px; 
+    text-decoration: none;
+    background-color:#FF5959;
+    color: white;
+    border: #FF5959;
+}
+footer{
+    text-align: center;
+}
+footer h5{
+    font-family: 'Lobster', cursive;
+    font-size:36px;
+    text-align: center;
+    color: #FF5959;
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+footer p{
+    color: white;
+    font-size: 14px;
+    margin-top: 0;
+}
+#footer-side{
+    height: 177px;
+    background-color: black;
+}
+
 
 
