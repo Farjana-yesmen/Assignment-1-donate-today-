@@ -79,6 +79,21 @@ hr{
     border: 5px solid #FF5959;
     color: #FF5959;
 }
+.amount {
+    font-weight: 400;
+    width: 700px;
+    margin: 50px auto;
+    padding-bottom: 15px;
+    display: block;
+    border: 0;
+    border-bottom: 1px solid #dadada;
+    text-align: center;
+    font-size: 18px;
+  }
+  .amount:focus {
+    outline: none;
+    box-shadow: none;
+  }
 .container-2{
     display: flex;
     margin-left: 5%;
@@ -132,7 +147,9 @@ hr{
     text-align: center;
     margin-left: 350px;
     
+    
 }
+
 .sub-box{
    width: 599px;
    height: 100px;
@@ -140,20 +157,32 @@ hr{
    padding-top: 70px;
 }
 #email-box{
+    border: 0;
     background-color: #D9D9D9;
-    border-color:#D9D9D9;
+    border:none;
     color: #AA9F9F;
-    width: 275px;
-    height: 48px;
+    width: 300px;
+    height: 45px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
    
 }
+#email-box:focus{
+    outline: none;
+}
+
+
 #button-box{
-    width: 175px;
-    height: 48px; 
-    text-decoration: none;
+    height: 45px;
+    width: 150px; 
+    font-size: 16px;
+    font-weight: 500;
     background-color:#FF5959;
     color: white;
-    border: #FF5959;
+    border: 0;
+    border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 15px;
 }
 footer{
     text-align: center;
